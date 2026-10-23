@@ -24,6 +24,8 @@ jobs:
           server-dir: ${{ secrets.FTP_DIR }}
           protocol: ftp
           port: 21
+          timeout: 120000
+          log-level: verbose
           local-dir: ./
           exclude: |
             **/.git*
