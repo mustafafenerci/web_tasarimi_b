@@ -1,3 +1,155 @@
-dasdadssads
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Kapadokya Üniversitesi Web Tasarımı dersi için hazırlanmış basit one page web sitesi."
+    />
+    <title>Web Tasarımı | Kapadokya Üniversitesi</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="navbar container" aria-label="Ana menü">
+        <a class="brand" href="#anasayfa" aria-label="Ana sayfaya dön">
+          <span class="brand-mark">KÜ</span>
+          <span>
+            <strong>Kapadokya</strong>
+            <small>Üniversitesi</small>
+          </span>
+        </a>
 
-ADASNDASND MUSTAF AFENRERCİ
+        <button class="menu-toggle" type="button" aria-label="Menüyü aç" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+
+        <ul class="nav-links">
+          <li><a class="active" href="#anasayfa">Ana Sayfa</a></li>
+          <li><a href="#ders">Ders Hakkında</a></li>
+          <li><a href="#icerik">Ders İçeriği</a></li>
+          <li><a href="#iletisim">İletişim</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="anasayfa">
+        <div class="hero-shape hero-shape-one"></div>
+        <div class="hero-shape hero-shape-two"></div>
+        <div class="container hero-content">
+          <p class="eyebrow">KAPADOKYA ÜNİVERSİTESİ · WEB TASARIMI</p>
+          <h1>Dijital dünyayı<br /><span>tasarlıyoruz.</span></h1>
+          <p class="hero-text">
+            Fikirleri; HTML, CSS ve JavaScript ile işlevsel, anlaşılır ve etkileyici
+            web deneyimlerine dönüştürüyoruz.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#ders">Dersi keşfet <span>→</span></a>
+            <a class="button button-outline" href="#icerik">Ders içeriği</a>
+          </div>
+          <div class="hero-note"><span class="dot"></span> Öğren · Üret · Paylaş</div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="code-card">
+            <div class="window-bar"><i></i><i></i><i></i><span>index.html</span></div>
+            <div class="code-lines">
+              <p><em>&lt;section</em> <b>class</b>=<strong>"design"</strong><em>&gt;</em></p>
+              <p class="indent"><em>&lt;h1&gt;</em>Hayal et.<em>&lt;/h1&gt;</em></p>
+              <p class="indent"><em>&lt;p&gt;</em>Üret ve paylaş.<em>&lt;/p&gt;</em></p>
+              <p><em>&lt;/section&gt;</em></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section intro" id="ders">
+        <div class="container two-columns">
+          <div>
+            <p class="section-label">01 — DERS HAKKINDA</p>
+            <h2>Web tasarımına<br /><span>ilk adımını at.</span></h2>
+          </div>
+          <div class="intro-copy">
+            <p>
+              Web Tasarımı dersi, modern web sitelerinin nasıl planlandığını ve
+              geliştirildiğini uygulamalı olarak öğretir. Tasarım düşüncesinden
+              kodlamaya kadar süreci birlikte keşfederiz.
+            </p>
+            <div class="stats">
+              <div><strong>14</strong><span>Haftalık<br />program</span></div>
+              <div><strong>3</strong><span>Temel<br />teknoloji</span></div>
+              <div><strong>1</strong><span>Dönem sonu<br />projesi</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section content-section" id="icerik">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="section-label">02 — DERS İÇERİĞİ</p>
+              <h2>Öğreneceklerin</h2>
+            </div>
+            <p>Temelden başlayıp kendi web sayfanı üretmeye uzanan bir yolculuk.</p>
+          </div>
+          <div class="topic-grid">
+            <article class="topic-card">
+              <span class="topic-number">01</span>
+              <div class="topic-icon">&lt;/&gt;</div>
+              <h3>HTML</h3>
+              <p>Web sayfalarının anlamlı ve düzenli iskeletini oluştur.</p>
+            </article>
+            <article class="topic-card featured">
+              <span class="topic-number">02</span>
+              <div class="topic-icon">✦</div>
+              <h3>CSS</h3>
+              <p>Renk, tipografi ve düzen ile sayfana kendi karakterini kat.</p>
+            </article>
+            <article class="topic-card">
+              <span class="topic-number">03</span>
+              <div class="topic-icon">{ }</div>
+              <h3>JavaScript</h3>
+              <p>Etkileşim ve hareket ekleyerek kullanıcı deneyimini geliştir.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section process-section">
+        <div class="container process-layout">
+          <div>
+            <p class="section-label">03 — YAKLAŞIMIMIZ</p>
+            <h2>Fikirden<br /><span>ekrana.</span></h2>
+          </div>
+          <ol class="process-list">
+            <li><span>01</span><div><h3>Planla</h3><p>İhtiyacı ve hedef kitleyi tanımla.</p></div></li>
+            <li><span>02</span><div><h3>Tasarla</h3><p>İçeriği anlaşılır bir görsel düzene dönüştür.</p></div></li>
+            <li><span>03</span><div><h3>Geliştir</h3><p>Tasarımını temiz ve erişilebilir kodla hayata geçir.</p></div></li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="contact-section" id="iletisim">
+        <div class="container contact-box">
+          <div>
+            <p class="section-label">04 — İLETİŞİM</p>
+            <h2>Bir fikrin mi var?</h2>
+            <p>Web tasarımı yolculuğuna birlikte başlayalım.</p>
+          </div>
+          <a class="button button-light" href="mailto:webtasarimi@kapadokya.edu.tr">Bize ulaş <span>↗</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <span>© <span id="year"></span> Kapadokya Üniversitesi</span>
+        <span>Web Tasarımı Dersi</span>
+        <a href="#anasayfa">Yukarı çık ↑</a>
+      </div>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
